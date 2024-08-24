@@ -36,7 +36,7 @@ First, import components using the external [components feature](https://esphome
 external_components:
   - source:
       type: git
-      url: https://github.com/strange-v/ha_deck
+      url: https://github.com/lechk82/ha_deck
       ref: main
     components: [ hd_device_sc01_plus, ha_deck ]
 ```
