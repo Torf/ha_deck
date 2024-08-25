@@ -7,7 +7,7 @@
 #include "lvgl.h"
 
 LV_IMG_DECLARE(bg_480x320);
-
+LV_IMG_DECLARE(bg_320x480);
 namespace esphome {
 namespace hd_device {
 
