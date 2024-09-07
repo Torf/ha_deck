@@ -62,9 +62,9 @@ void HdButton::render_() {
     lv_obj_set_style_pad_top(button_, 10, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(button_, 10, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_radius(button_, 5, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_color(button_, lv_color_hex(0x3d3d3d), LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(button_, lv_color_hex(0x1e1e1e), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(button_, 25, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_color(button_, lv_color_hex(0x3d3d3d), LV_PART_MAIN | LV_STATE_DISABLED);
+    lv_obj_set_style_bg_color(button_, lv_color_hex(0x1e1e1e), LV_PART_MAIN | LV_STATE_DISABLED);
     lv_obj_set_style_bg_opa(button_, 5, LV_PART_MAIN | LV_STATE_DISABLED);
     lv_obj_set_style_text_color(button_, lv_color_hex(0xFFFFFF), LV_PART_MAIN | LV_STATE_DISABLED);
     lv_obj_set_style_text_opa(button_, 150, LV_PART_MAIN | LV_STATE_DISABLED);
@@ -72,7 +72,7 @@ void HdButton::render_() {
     lv_obj_set_style_bg_color(button_, lv_color_hex(0xFCD663), LV_PART_MAIN | LV_STATE_CHECKED);
     lv_obj_set_style_bg_opa(button_, 125, LV_PART_MAIN | LV_STATE_CHECKED);
     // Disabled
-    lv_obj_set_style_bg_color(button_, lv_color_hex(0x3d3d3d), LV_PART_MAIN | LV_STATE_DISABLED);
+    lv_obj_set_style_bg_color(button_, lv_color_hex(0x1e1e1e), LV_PART_MAIN | LV_STATE_DISABLED);
     lv_obj_set_style_bg_opa(button_, 5, LV_PART_MAIN | LV_STATE_DISABLED);
     lv_obj_set_style_text_color(button_, lv_color_hex(0xFFFFFF), LV_PART_MAIN | LV_STATE_DISABLED);
     lv_obj_set_style_text_opa(button_, 150, LV_PART_MAIN | LV_STATE_DISABLED);
